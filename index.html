@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device=width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">	
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=ABeeZee|Roboto&display=swap&subset=cyrillic" rel="stylesheet">	
+	<title>chat</title>
+</head>
+<body>
+	<header class="page-header">
+		<section class="chat__header">			
+			<div class="logo">
+				<span class="logo__ellipse"></span>
+				<img src="pictures/library_Student.png" alt="logo" width="386" height="62" class="logo__img"/>
+			</div>
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__item nav__item--1">
+						<a href="#" class="nav__link">
+							Главная
+						</a>
+					</li>
+					<li class="nav__item nav__item--2">
+						<a href="#" class="nav__link">
+							Предметы
+						</a>
+					</li>
+					<li class="nav__item nav__item--3">
+						<a href="#" class="nav__link">
+							О сайте
+						</a>
+					</li>
+					<li class="nav__item nav__item--4">
+						<a href="#" class="nav__link">
+							Опции
+						</a>
+					</li>
+					<li class="nav__item nav__item--5">
+						<a href="#" class="nav__link">
+							Чат
+						</a>
+					</li>
+					<li class="nav__item nav__item--last">
+						<a href="#" class="nav__link">
+							Профиль
+						</a>
+					</li>
+					<li class="nav__item--search">
+						<a href="#" class="nav__link">
+							<svg width="33" height="33" viewBox="0 0 33 33" fill="none">
+								<path d="M23.5849 20.7547H22.0943L21.566 20.2453C23.4151 18.0943 24.5283 15.3019 24.5283 12.2642C24.5283 5.49057 19.0377 0 12.2642 0C5.49057 0 0 5.49057 0 12.2642C0 19.0377 5.49057 24.5283 12.2642 24.5283C15.3019 24.5283 18.0943 23.4151 20.2453 21.566L20.7547 22.0943V23.5849L30.1887 33L33 30.1887L23.5849 20.7547ZM12.2642 20.7547C7.56604 20.7547 3.77358 16.9623 3.77358 12.2642C3.77358 7.56604 7.56604 3.77358 12.2642 3.77358C16.9623 3.77358 20.7547 7.56604 20.7547 12.2642C20.7547 16.9623 16.9623 20.7547 12.2642 20.7547Z" fill="#D7DDD0"/>
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</section>
+	</header>
+	<main class="page-main">
+		<aside class="page-main__item sidebar">
+			<h3 class="sidebar__title">Сообщения</h3>
+			<ul class="sidebar__list">
+				<li class="sidebar__item box box--active">
+					<picture class="box__ava">
+						<img src="pictures/Rectangle 2.42.png" alt="1">
+					</picture>
+					<div class="box__wrap">
+						<h3 class="box__title">
+							Мероприятия
+						</h3>
+						<p class="box__text">
+							<span class="box__author">
+								Вы:
+							</span>
+							Согласен теперь...
+						</p>
+					</div>
+				</li>				
+				<li class="sidebar__item box--visited box">	
+					<picture class="box__ava">
+						<img src="pictures/Rectangle 2.43.png" alt="2">
+					</picture>
+					<div class="box__wrap"><div class="box-wrap">	
+						<h3 class="box__title">
+							Полля Лазурна
+						</h3>
+						<p class="box__text">
+							<span class="box__author">
+								Вы :
+							</span>
+							Хорошо, завтра...
+						</p>
+					</div>
+				</li>
+				<li class="sidebar__item box--visited box">
+					<picture class="box__ava">
+						<img src="pictures/Rectangle 2.44.png" alt="3">
+					</picture>
+					<div class="box__wrap">
+						<h3 class="box__title">
+							Чат предложений
+						</h3>
+						<p class="box__text">
+							<span class="box__author">
+								Вы :
+							</span>
+							Хорошо, завтра...
+						</p>
+					</div>
+				</li>
+				<li class="sidebar__item box">
+					<picture class="box__ava">
+						<img src="pictures/Rectangle 2.45.png" alt="4">
+					</picture>
+					<div class="box__wrap">
+						<h3 class="box__title">
+							Обязаности
+						</h3>
+						<p class="box__text">
+							<span class="box__author">
+								Вы :
+							</span>
+							Хорошо, завтра...
+						</p>
+					</div>
+				</li>
+				<li class="sidebar__item box--visited box">
+					<picture class="box__ava">
+						<img src="pictures/Rectangle 2.46.png" alt="5">
+					</picture>
+					<div class="box__wrap">	
+						<h3 class="box__title">
+							Система
+						</h3>
+						<p class="box__text">
+							<span class="box__author">
+								Вы :
+							</span>
+							Хорошо, завтра...
+						</p>
+					</div>
+				</li>
+				<li class="sidebar__item box">
+					<picture class="box__ava">
+						<img src="pictures/Rectangle 2.47.png" alt="6">
+					</picture>
+					<div class="box__wrap">
+						<h3 class="box__title">
+							Антон Зырянов
+						</h3>
+						<p class="box__text">
+							<span class="box__author">
+								Вы :
+							</span>
+							Хорошо, завтра...
+						</p>
+					</div>
+				</li>
+				<li class="sidebar__item box">
+					<picture class="box__ava">
+						<img src="pictures/Rectangle 2.58.png" alt="7">
+					</picture>
+					<div class="box__wrap">
+						<h3 class="box__title">
+							Макс Ранков
+						</h3>
+						<p class="box__text">
+							<span class="box__author">
+								Вы :
+							</span>
+							Хорошо, завтра...
+						</p>
+					</div>
+				</li>
+				<li class="sidebar__item box">
+					<picture class="box__ava">
+						<img src="pictures/Rectangle 2.103.png" alt="8">
+					</picture>
+					<div class="box__wrap">
+						<h3 class="box__title">
+							Юлия Никрасова
+						</h3>
+						<p class="box__text">
+							<span class="box__author">
+								Вы :
+							</span>
+							Хорошо, завтра...
+						</p>
+					</div>
+				</li>
+				<li class="sidebar__item box">
+					<picture class="box__ava">
+						<img src="pictures/Rectangle 2.50.png" alt="9">
+					</picture>
+					<div class="box__wrap">
+						<h3 class="box__title">
+							Женя бариста
+						</h3>
+						<p class="box__text">
+							<span class="box__author">
+								Вы :
+							</span>
+							Хорошо, завтра...
+						</p>
+					</div>
+				</li>
+				<li class="sidebar__item box box--visited">
+					<picture class="box__ava">
+						<img src="pictures/Rectangle 2.51.png" alt="1">
+					</picture>
+					<div class="box__wrap">
+						<h3 class="box__title">
+							Болталка
+						</h3>
+						<p class="box__text">
+							<span class="box__author">
+								Вы :
+							</span>
+							Согласен теперь...
+						</p>
+					</div>
+				</li>
+				<li class="sidebar__item box">
+					<picture class="box__ava">
+						<img src="pictures/Rectangle 2.51.png" alt="1">
+					</picture>
+					<div class="box__wrap">
+						<h3 class="box__title">
+							Костя Линов
+						</h3>
+						<p class="box__text">
+							<span class="box__author">
+								Вы :
+							</span>
+							Хорошо, завтра...
+						</p>
+					</div>
+				</li>
+				<li class="sidebar__item box">
+					<picture class="box__ava">
+						<img src="pictures/Rectangle 2.51.png" alt="1">
+					</picture>
+					<div class="box__wrap">
+						<h3 class="box__title">
+							Жека Нориков
+						</h3>
+						<p class="box__text">
+							<span class="box__author">
+								Вы :
+							</span>
+							Хорошо, завтра...
+						</p>
+					</div>
+				</li>
+				<li class="sidebar__item box">
+					<picture class="box__ava">
+						<img src="pictures/Rectangle 2.51.png" alt="1">
+					</picture>
+					<div class="box__wrap">
+						<h3 class="box__title">
+							Александр СИС
+						</h3>
+						<p class="box__text">
+							<span class="box__author">
+								Вы :
+							</span>
+							Хорошо, завтра...
+						</p>
+					</div>
+				</li>
+				<li class="sidebar__item box">
+					<picture class="box__ava">
+						<img src="pictures/Rectangle 2.51.png" alt="1">
+					</picture>
+					<div class="box__wrap">
+						<h3 class="box__title">
+							Обсуждения
+						</h3>
+						<p class="box__text">
+							<span class="box__author">
+								Вы :					
+							</span>
+							Хорошо, завтра...
+						</p>
+					</div>
+				</li>
+			</ul>				
+		</aside>
+		<div class="page-main__item">		
+			<section class="chat">
+				<section class="events">
+					<h3 class="events__title">
+						Мероприятия
+						<span class="events__title events__title--small">
+							121	участник
+						</span>
+					</h3>				
+					<div class="events__search search">
+						<svg width="30" height="32" viewBox="0 0 30 32" fill="none" class="search__img">
+							<path d="M20.9084 20.7936C17.2311 24.5372 11.2677 24.7098 7.38053 21.2655L6.64917 20.5472C3.13928 16.7255 3.20172 10.7567 6.87894 7.01304C10.6775 3.14585 16.9134 3.09005 20.7806 6.88864C24.6478 10.6872 24.707 16.9264 20.9084 20.7936ZM8.5988 8.7024C8.50367 8.79924 8.41189 8.89937 8.3201 8.9995L12.2507 12.8604L15.0434 12.7361L14.9691 15.5306L18.8998 19.3915C18.9982 19.2979 19.0967 19.2044 19.1918 19.1075C22.0621 16.1854 22.0166 11.4754 19.0979 8.60844C16.1758 5.73818 11.4658 5.78364 8.5988 8.7024ZM18.8406 19.4384L14.9166 15.584L12.0878 15.7384L12.2507 12.8604L12.1983 12.9139L8.27429 9.0595C5.7451 11.9951 5.88754 16.446 8.69276 19.2015C11.498 21.9569 15.9508 22.0263 18.8406 19.4384Z" fill="#3C5A76"/>
+							<rect x="18.9028" y="21.8596" width="3.21032" height="12.7211" transform="rotate(-43.5955 18.9028 21.8596)" fill="#3C5A76"/>
+						</svg>
+						<input type="text" class="search__area">
+					</div>			
+				</section>	
+				<section class="chat__block">
+					<time class="days">10 сентября</time>
+					<div class="chat__box">
+						<div class="box__thumb">
+							<picture class="box__img">
+								<img src="pictures/Rectangle 2.22.png" alt="girl">
+							</picture>
+						</div>
+						<div class="box">
+							<div class="box__mess">
+								<div class="onClick">
+									<p class="box__text box__text--hvost onClick">
+										Здравствуйте, я по поводу завтрашнего совещания. Мне в котором часу завтра приезжать? 
+									</p>	
+									<div class="redact">
+										<a href="#" class="onClick__link">Изменить</a>
+										<a href="#" class="onClick__link">Копировать</a>
+										<a href="#" class="onClick__link">Перслать</a>
+										<a href="#" class="onClick__link">Удалить</a>
+									</div>	
+								</div>		
+								<time class="box__date">07:20</time>
+							</div>
+						</div>						
+					</div>
+					<div class="chat__box chat__box--right">
+						<div class="boxRight">
+							<div class="boxRight__mess">
+								<time class="boxRight__date">07:25</time>
+								<div class="onClickRight">
+									<p class="boxRight__text onClickRight">Тоже не понял.</p>
+									<div class="redact">
+										<a href="#" class="onClickRight__link">Изменить</a>
+										<a href="#" class="onClickRight__link">Копировать</a>
+										<a href="#" class="onClickRight__link">Перслать</a>
+										<a href="#" class="onClickRight__link">Удалить</a>
+									</div>	
+								</div>
+							</div>
+							<div class="boxRight__mess">
+								<time class="boxRight__date">07:25</time>
+								<div class="onClickRight">
+									<p class="boxRight__text boxRight__text--hvost onClickRight">Вроде как сказали, что в пн будут сборы.</p>
+									<div class="redact">
+										<a href="#" class="onClickRight__link">Изменить</a>
+										<a href="#" class="onClickRight__link">Копировать</a>
+										<a href="#" class="onClickRight__link">Перслать</a>
+										<a href="#" class="onClickRight__link">Удалить</a>
+									</div>	
+								</div>
+							</div>
+						</div>
+						<div class="boxRight__thumb">
+							<picture class="boxRight__img">
+								<img src="pictures/Rectangle 2.23.png" alt="boy">
+							</picture>
+						</div>
+					</div>
+					<time class="days">11 сентября</time>
+					<div class="chat__box">
+						<div class="box__thumb">
+							<picture class="box__img">
+								<img src="pictures/Rectangle 2.21.png" alt="boy2">
+							</picture>
+						</div>						
+						<div class="box">
+							<div class="box__mess">
+								<div class="onClick">
+									<p class="box__text box__text--hvost onClick">
+										Всё правильно, совещание начнётся в 17:35 до 19:00.
+									</p>
+									<div class="redact">
+										<a href="#" class="onClick__link">Изменить</a>
+										<a href="#" class="onClick__link">Копировать</a>
+										<a href="#" class="onClick__link">Перслать</a>
+										<a href="#" class="onClick__link">Удалить</a>
+									</div>	
+								</div>			
+								<time class="box__date">07:00</time>
+							</div>
+						</div>						
+					</div>		
+				</section>
+				<section class="chat__footer">
+					<div class="plus-btn">
+						<nav class="plus-btn__add add">
+							<ul class="plus-btn__list">
+								<li class="plus-btn_item">
+									<a href="#" class="plus-btn__link">
+										<img src="pictures/audio.png" alt="audio" class="plus-btn__audio">	
+									</a>
+								</li>
+								<li class="add__item">
+									<a href="#" class="add__link">
+										<img src="pictures/photo.png" alt="photo" class="add__photo">	
+									</a>
+								</li>
+								<li class="add__item">
+									<a href="#" class="add__link">
+										<img src="pictures/video.png" alt="video" class="add__video">	
+									</a>
+								</li>
+								<li class="add__item">
+									<a href="#" class="add__link">
+										<img src="pictures/music.png" alt="music" class="add__music">	
+									</a>
+								</li>								
+							</ul>								
+						</nav>					
+						<div class="plus-btn__bg">		
+						</div>	
+					</div>
+					<form class="formChat">
+						<div class="formChat__wrap">
+							<input type="text" class="formChat__area" placeholder="Сообщение...">
+							<a href="#">
+								<svg width="34" height="34" viewBox="0 0 34 34" fill="none" class="formChat__area--smille">
+									<path d="M15.6673 28.8244C15.4936 27.9715 15.3988 27.0871 15.4304 26.171C15.5883 20.4062 20.4055 15.5891 26.1703 15.4311C28.2235 15.368 30.1504 15.8734 31.8087 16.7894C31.8087 16.7894 32.1088 16.8842 31.5244 17.5002L17.4994 31.5252C17.1835 31.8411 16.7571 32.0148 16.3149 31.999C8.21256 31.6357 1.78442 24.8286 2.00554 16.5841C2.22665 8.7503 8.74956 2.2274 16.5834 2.00628C23.7538 1.80096 29.8345 6.64971 31.5402 13.2516" stroke="#506B76" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/>
+								</svg>		
+							</a>										
+						</div>
+						<input type="submit" class="formChat__btn" value="send">
+					</form>	
+				</section>	
+			</section>
+		</div>	
+	</main>
+</body>
+</html>
