@@ -223,8 +223,10 @@
 			width: 88%;
 			height: 37px;
 			background-color: #adbdcc;
-			box-shadow: 4px, 0px, 4px, rgba(0, 0, 0, 0.25);
+			box-shadow: inset 4px 0px 4px rgba(0, 0, 0, 0.25);
 			border-radius: 15px;
+			outline: none;
+			padding: 5px 15px;
 		}
 	}
 }
@@ -605,7 +607,8 @@
 		padding: 21px 80px 32px 30px;
 		margin-left: 5px;
 		border-radius: 15px;
-		width: 100%;				
+		width: 100%;
+		outline: none;				
 
 		&--smille {
 			position: absolute;
@@ -617,8 +620,8 @@
 
 	&__area::-webkit-input-placeholder, .contact-form textarea::-webkit-input-placeholder {font-family: $main-font-family; font-size: 21px; line-height: 25px; opacity: 0.7; color: $placeholder-color;;}
 	&__area::-moz-placeholder, .contact-form textarea::-moz-placeholder{opacity: 0.7; color: $placeholder-color;;}
-	&__area:-moz-placeholder, .contact-form textarea:-moz-placeholder{font-family: $main-font-family; font-size: 21px; line-height: 25px; opacity: 0.7; color: $placeholder-color;;}
-	&__area:-ms-input-placeholder, .contact-form textarea:-ms-input-placeholder{font-family: $main-font-family; font-size: 21px; line-height: 25px; opacity: 0.7; color: $placeholder-color;;}
+	&__area::-moz-placeholder, .contact-form textarea:-moz-placeholder{font-family: $main-font-family; font-size: 21px; line-height: 25px; opacity: 0.7; color: $placeholder-color;;}
+	&__area::-ms-input-placeholder, .contact-form textarea:-ms-input-placeholder{font-family: $main-font-family; font-size: 21px; line-height: 25px; opacity: 0.7; color: $placeholder-color;;}
 
 	&__btn {
 		font-family: $main-font-family;
