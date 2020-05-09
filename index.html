@@ -1,20 +1,24 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="zxx">                                               
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device=width, initial-scale=1">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=ABeeZee&#448;Roboto&display=swap&subset=cyrillic" rel="stylesheet">	
+	<link href="https://fonts.googleapis.com/css?family=ABeeZee&#448;Roboto&display=swap&subset=cyrillic"
+	rel="stylesheet">
 	<title>chat</title>
 </head>
+
 <body>
 	<header class="page-header">
-		<section class="chat__header">			
+		<section class="chat__header">
 			<div class="logo">
 				<span class="logo__ellipse"></span>
-				<img src="pictures/library_Student.png" alt="logo" width="386" height="58" class="logo__img"/>
+				<img src="pictures/desktop/library_Student.png" alt="logo" width="386" height="58"
+				class="logo__img" />
 			</div>
 			<nav class="nav">
 				<ul class="nav__list">
@@ -51,7 +55,9 @@
 					<li class="nav__item--search">
 						<a href="#" class="nav__link">
 							<svg width="33" height="33" viewBox="0 0 33 33" fill="none">
-								<path d="M23.5849 20.7547H22.0943L21.566 20.2453C23.4151 18.0943 24.5283 15.3019 24.5283 12.2642C24.5283 5.49057 19.0377 0 12.2642 0C5.49057 0 0 5.49057 0 12.2642C0 19.0377 5.49057 24.5283 12.2642 24.5283C15.3019 24.5283 18.0943 23.4151 20.2453 21.566L20.7547 22.0943V23.5849L30.1887 33L33 30.1887L23.5849 20.7547ZM12.2642 20.7547C7.56604 20.7547 3.77358 16.9623 3.77358 12.2642C3.77358 7.56604 7.56604 3.77358 12.2642 3.77358C16.9623 3.77358 20.7547 7.56604 20.7547 12.2642C20.7547 16.9623 16.9623 20.7547 12.2642 20.7547Z" fill="#D7DDD0"/>
+								<path
+								d="M23.5849 20.7547H22.0943L21.566 20.2453C23.4151 18.0943 24.5283 15.3019 24.5283 12.2642C24.5283 5.49057 19.0377 0 12.2642 0C5.49057 0 0 5.49057 0 12.2642C0 19.0377 5.49057 24.5283 12.2642 24.5283C15.3019 24.5283 18.0943 23.4151 20.2453 21.566L20.7547 22.0943V23.5849L30.1887 33L33 30.1887L23.5849 20.7547ZM12.2642 20.7547C7.56604 20.7547 3.77358 16.9623 3.77358 12.2642C3.77358 7.56604 7.56604 3.77358 12.2642 3.77358C16.9623 3.77358 20.7547 7.56604 20.7547 12.2642C20.7547 16.9623 16.9623 20.7547 12.2642 20.7547Z"
+								fill="#D7DDD0" />
 							</svg>
 						</a>
 					</li>
@@ -64,7 +70,7 @@
 			<h3 class="sidebar__title">Сообщения</h3>
 			<ul class="sidebar__list">
 				<li class="sidebar__item bar bar--active">
-					<img src="pictures/Rectangle-2.42.png" alt="" class="bar__ava" width="46" height="40">
+					<img src="pictures/desktop/Rectangle-2.42.png" alt="" class="bar__ava" width="46" height="40">
 					<div class="bar__wrap">
 						<h3 class="bar__title bar__title--active">
 							Мероприятия
@@ -75,13 +81,13 @@
 							</span>
 							<span class="bar__text">
 								Согласен теперь...
-							</span>	
+							</span>
 						</p>
 					</div>
-				</li>				
-				<li class="sidebar__item bar--visited bar">	
-					<img src="pictures/Rectangle-2.43.png" alt="" class="bar__ava" width="46" height="40">
-					<div class="bar__wrap">	
+				</li>
+				<li class="sidebar__item bar--visited bar">
+					<img src="pictures/desktop/Rectangle-2.43.png" alt="" class="bar__ava" width="46" height="40">
+					<div class="bar__wrap">
 						<h3 class="bar__title">
 							Полля Лазурна
 						</h3>
@@ -92,9 +98,11 @@
 							<span class="bar__text">Хорошо, завтра... </span>
 						</p>
 					</div>
+					<!-- уберите после обработки в js -->
+					<span id="counter">1</span>
 				</li>
 				<li class="sidebar__item bar--visited bar">
-					<img src="pictures/Rectangle-2.44.png" alt="" class="bar__ava" width="46" height="40">
+					<img src="pictures/desktop/Rectangle-2.44.png" alt="" class="bar__ava" width="46" height="40">
 					<div class="bar__wrap">
 						<h3 class="bar__title">
 							Чат предложений
@@ -106,9 +114,11 @@
 							<span class="bar__text">Хорошо, завтра...</span>
 						</p>
 					</div>
+					<!-- уберите после обработки в js -->
+					<span id="counter">4</span>
 				</li>
 				<li class="sidebar__item bar">
-					<img src="pictures/Rectangle-2.45.png" alt="" class="bar__ava" width="46" height="40">
+					<img src="pictures/desktop/Rectangle-2.45.png" alt="" class="bar__ava" width="46" height="40">
 					<div class="bar__wrap">
 						<h3 class="bar__title">
 							Обязаности
@@ -120,10 +130,12 @@
 							<span class="bar__text">Хорошо, завтра...</span>
 						</p>
 					</div>
+					<!-- уберите после обработки в js -->
+					<span id="counter">1</span>
 				</li>
 				<li class="sidebar__item bar--visited bar">
-					<img src="pictures/Rectangle-2.46.png" alt="" class="bar__ava" width="46" height="40">
-					<div class="bar__wrap">	
+					<img src="pictures/desktop/Rectangle-2.46.png" alt="" class="bar__ava" width="46" height="40">
+					<div class="bar__wrap">
 						<h3 class="bar__title">
 							Система
 						</h3>
@@ -136,7 +148,7 @@
 					</div>
 				</li>
 				<li class="sidebar__item bar">
-					<img src="pictures/Rectangle-2.47.png" alt="" class="bar__ava" width="46" height="40">
+					<img src="pictures/desktop/Rectangle-2.47.png" alt="" class="bar__ava" width="46" height="40">
 					<div class="bar__wrap">
 						<h3 class="bar__title">
 							Антон Зырянов
@@ -148,9 +160,11 @@
 							<span class="bar__text">Хорошо, завтра...</span>
 						</p>
 					</div>
+					<!-- уберите после обработки в js -->
+					<span id="counter">1</span>
 				</li>
 				<li class="sidebar__item bar">
-					<img src="pictures/Rectangle-2.58.png" alt="" class="bar__ava" width="46" height="40">
+					<img src="pictures/desktop/Rectangle-2.58.png" alt="" class="bar__ava" width="46" height="40">
 					<div class="bar__wrap">
 						<h3 class="bar__title">
 							Макс Ранков
@@ -164,7 +178,7 @@
 					</div>
 				</li>
 				<li class="sidebar__item bar">
-					<img src="pictures/Rectangle-2.103.png" alt="" class="bar__ava" width="46" height="40">
+					<img src="pictures/desktop/Rectangle-2.103.png" alt="" class="bar__ava" width="46" height="40">
 					<div class="bar__wrap">
 						<h3 class="bar__title">
 							Юлия Никрасова
@@ -178,7 +192,7 @@
 					</div>
 				</li>
 				<li class="sidebar__item bar">
-					<img src="pictures/Rectangle-2.50.png" alt="" class="bar__ava" width="46" height="40">
+					<img src="pictures/desktop/Rectangle-2.50.png" alt="" class="bar__ava" width="46" height="40">
 					<div class="bar__wrap">
 						<h3 class="bar__title">
 							Женя бариста
@@ -192,7 +206,7 @@
 					</div>
 				</li>
 				<li class="sidebar__item bar bar--visited">
-					<img src="pictures/Rectangle-2.51.png" alt="" class="bar__ava" width="46" height="40">
+					<img src="pictures/desktop/Rectangle-2.51.png" alt="" class="bar__ava" width="46" height="40">
 					<div class="bar__wrap">
 						<h3 class="bar__title">
 							Болталка
@@ -206,7 +220,7 @@
 					</div>
 				</li>
 				<li class="sidebar__item bar">
-					<img src="pictures/Rectangle-2.51.png" alt="" class="bar__ava" width="46" height="40">
+					<img src="pictures/desktop/Rectangle-2.51.png" alt="" class="bar__ava" width="46" height="40">
 					<div class="bar__wrap">
 						<h3 class="bar__title">
 							Костя Линов
@@ -220,7 +234,7 @@
 					</div>
 				</li>
 				<li class="sidebar__item bar">
-					<img src="pictures/Rectangle-2.51.png" alt="" class="bar__ava" width="46" height="40">
+					<img src="pictures/desktop/Rectangle-2.51.png" alt="" class="bar__ava" width="46" height="40">
 					<div class="bar__wrap">
 						<h3 class="bar__title">
 							Жека Нориков
@@ -234,7 +248,7 @@
 					</div>
 				</li>
 				<li class="sidebar__item bar">
-					<img src="pictures/Rectangle-2.51.png" alt="" class="bar__ava" width="46" height="40">
+					<img src="pictures/desktop/Rectangle-2.51.png" alt="" class="bar__ava" width="46" height="40">
 					<div class="bar__wrap">
 						<h3 class="bar__title">
 							Александр СИС
@@ -248,55 +262,69 @@
 					</div>
 				</li>
 				<li class="sidebar__item bar">
-					<img src="pictures/Rectangle-2.51.png" alt="" class="bar__ava" width="46" height="40">
+					<img src="pictures/desktop/Rectangle-2.51.png" alt="" class="bar__ava" width="46" height="40">
 					<div class="bar__wrap">
 						<h3 class="bar__title">
 							Обсуждения
 						</h3>
 						<p class="bar__mess">
 							<span class="bar__author">
-								Вы:					
+								Вы:
 							</span>
 							<span class="bar__text">Хорошо, завтра...</span>
 						</p>
 					</div>
 				</li>
-			</ul>				
+			</ul>
 		</aside>
-		<div class="page-main__item">		
+		<div class="page-main__item">
 			<section class="chat">
 				<section class="events">
+					<!-- убрать после обработки -->
+					<div id="inActive">
+						<div class="inActive_main">
+							<h2 id="name">Сашка</h2>
+							<p id="date"><span id="num">2</span>часа назад</p>
+						</div>
+						<img src="pictures/desktop/Rectangle-2.21.png" alt="" id="avatar">
+					</div>
+					<!--  -->
 					<h3 class="events__title">
 						Мероприятия
 						<span class="events__title events__title--small">
 							<span class="events__num">121</span>участник
 						</span>
-					</h3>				
+					</h3>
 					<div class="events__search search">
 						<svg width="30" height="32" viewBox="0 0 30 32" fill="none" class="search__img">
-							<path d="M20.9084 20.7936C17.2311 24.5372 11.2677 24.7098 7.38053 21.2655L6.64917 20.5472C3.13928 16.7255 3.20172 10.7567 6.87894 7.01304C10.6775 3.14585 16.9134 3.09005 20.7806 6.88864C24.6478 10.6872 24.707 16.9264 20.9084 20.7936ZM8.5988 8.7024C8.50367 8.79924 8.41189 8.89937 8.3201 8.9995L12.2507 12.8604L15.0434 12.7361L14.9691 15.5306L18.8998 19.3915C18.9982 19.2979 19.0967 19.2044 19.1918 19.1075C22.0621 16.1854 22.0166 11.4754 19.0979 8.60844C16.1758 5.73818 11.4658 5.78364 8.5988 8.7024ZM18.8406 19.4384L14.9166 15.584L12.0878 15.7384L12.2507 12.8604L12.1983 12.9139L8.27429 9.0595C5.7451 11.9951 5.88754 16.446 8.69276 19.2015C11.498 21.9569 15.9508 22.0263 18.8406 19.4384Z" fill="#3C5A76"/>
-							<rect x="18.9028" y="21.8596" width="3.21032" height="12.7211" transform="rotate(-43.5955 18.9028 21.8596)" fill="#3C5A76"/>
+							<path
+							d="M20.9084 20.7936C17.2311 24.5372 11.2677 24.7098 7.38053 21.2655L6.64917 20.5472C3.13928 16.7255 3.20172 10.7567 6.87894 7.01304C10.6775 3.14585 16.9134 3.09005 20.7806 6.88864C24.6478 10.6872 24.707 16.9264 20.9084 20.7936ZM8.5988 8.7024C8.50367 8.79924 8.41189 8.89937 8.3201 8.9995L12.2507 12.8604L15.0434 12.7361L14.9691 15.5306L18.8998 19.3915C18.9982 19.2979 19.0967 19.2044 19.1918 19.1075C22.0621 16.1854 22.0166 11.4754 19.0979 8.60844C16.1758 5.73818 11.4658 5.78364 8.5988 8.7024ZM18.8406 19.4384L14.9166 15.584L12.0878 15.7384L12.2507 12.8604L12.1983 12.9139L8.27429 9.0595C5.7451 11.9951 5.88754 16.446 8.69276 19.2015C11.498 21.9569 15.9508 22.0263 18.8406 19.4384Z"
+							fill="#3C5A76" />
+							<rect x="18.9028" y="21.8596" width="3.21032" height="12.7211"
+							transform="rotate(-43.5955 18.9028 21.8596)" fill="#3C5A76" />
 						</svg>
 						<input type="text" class="search__area">
-					</div>			
-				</section>	
+					</div>
+				</section>
 				<section class="chat__block">
 					<span><time datetime="2019-09-10" class="days">10 сентября</time></span>
 					<div class="chat__box">
 						<div class="box__thumb">
-							<img src="pictures/Rectangle-2.22.png" alt="girl" class="box__img" width="70" height="66">
+							<img src="pictures/desktop/Rectangle-2.22.png" alt="girl" class="box__img" width="70"
+							height="66">
 						</div>
 						<div class="box">
-							<div class="box__mess">								
+							<div class="box__mess">
 								<p class="box__text box__text--hvost">
-									Здравствуйте, я по поводу завтрашнего совещания. Мне в котором часу завтра приезжать? 
-								</p>										
+									Здравствуйте, я по поводу завтрашнего совещания. Мне в котором часу завтра
+									приезжать?
+								</p>
 								<time class="box__date">07:20</time>
 							</div>
 							<nav class="eddit">
 								<ul class="eddit__list">
 									<li class="eddit__item">
-										<a href="#" class="eddit__link">Изменить</a>	
+										<a href="#" class="eddit__link">Изменить</a>
 									</li>
 									<li class="eddit__item">
 										<a href="#" class="eddit__link">Копировать</a>
@@ -304,12 +332,12 @@
 									<li class="eddit__item">
 										<a href="#" class="eddit__link">Переслать</a>
 									</li>
-									<li class="eddit__item"> 
+									<li class="eddit__item">
 										<a href="#" class="eddit__link">Удалить</a>
 									</li>
 								</ul>
-							</nav>	
-						</div>						
+							</nav>
+						</div>
 					</div>
 					<div class="chat__box chat__box--right">
 						<div class="boxRight">
@@ -318,13 +346,13 @@
 								<p class="boxRight__text">Тоже не понял.</p>
 							</div>
 							<div class="boxRight__mess">
-								<span><time class="boxRight__date">07:25</time></span>	
-								<p class="boxRight__text--hvost">Вроде как сказали, что в пн будут сборы.</p>				
+								<span><time class="boxRight__date">07:25</time></span>
+								<p class="boxRight__text--hvost">Вроде как сказали, что в пн будут сборы.</p>
 							</div>
 							<nav class="edditRight">
 								<ul class="edditRight__list">
 									<li class="edditRight__item">
-										<a href="#" class="edditRight__link">Изменить</a>	
+										<a href="#" class="edditRight__link">Изменить</a>
 									</li>
 									<li class="edditRight__item">
 										<a href="#" class="edditRight__link">Копировать</a>
@@ -332,32 +360,34 @@
 									<li class="edditRight__item">
 										<a href="#" class="edditRight__link">Переслать</a>
 									</li>
-									<li class="edditRight__item"> 
+									<li class="edditRight__item">
 										<a href="#" class="edditRight__link">Удалить</a>
 									</li>
 								</ul>
-							</nav>	
+							</nav>
 						</div>
 						<div class="boxRight__thumb">
-							<img src="pictures/Rectangle-2.23.png" alt="boy" class="boxRight__img" width="70" height="66">
+							<img src="pictures/desktop/Rectangle-2.23.png" alt="boy" class="boxRight__img"
+							width="70" height="66">
 						</div>
 					</div>
 					<span><time datetime="2019-09-11" class="days">11 сентября</time></span>
 					<div class="chat__box">
 						<div class="box__thumb">
-							<img src="pictures/Rectangle-2.21.png" alt="boy2" class="box__img" width="70" height="66">
-						</div>						
+							<img src="pictures/desktop/Rectangle-2.21.png" alt="boy2" class="box__img" width="70"
+							height="66">
+						</div>
 						<div class="box">
-							<div class="box__mess">								
+							<div class="box__mess">
 								<p class="box__text box__text--hvost">
 									Всё правильно, совещание начнётся в 17:35 до 19:00.
-								</p>								
+								</p>
 								<span><time class="box__date">07:00</time></span>
 							</div>
 							<nav class="eddit">
 								<ul class="eddit__list">
 									<li class="eddit__item">
-										<a href="#" class="eddit__link">Изменить</a>	
+										<a href="#" class="eddit__link">Изменить</a>
 									</li>
 									<li class="eddit__item">
 										<a href="#" class="eddit__link">Копировать</a>
@@ -365,27 +395,27 @@
 									<li class="eddit__item">
 										<a href="#" class="eddit__link">Переслать</a>
 									</li>
-									<li class="eddit__item"> 
+									<li class="eddit__item">
 										<a href="#" class="eddit__link">Удалить</a>
 									</li>
 								</ul>
-							</nav>	
-						</div>						
+							</nav>
+						</div>
 					</div>
 					<div class="chat__box chat__box--right">
 						<div class="boxRight">
 							<div class="boxRight__mess">
-								<span><time class="boxRight__date">07:50</time></span>					
-								<p class="boxRight__text">Спасибо большое, Макс.</p>	
+								<span><time class="boxRight__date">07:50</time></span>
+								<p class="boxRight__text">Спасибо большое, Макс.</p>
 							</div>
 							<div class="boxRight__mess">
-								<span><time class="boxRight__date">07:51</time></span>					
+								<span><time class="boxRight__date">07:51</time></span>
 								<p class="boxRight__text--hvost">Спасибо большое, Макс.</p>
 							</div>
 							<nav class="edditRight">
 								<ul class="edditRight__list">
 									<li class="edditRight__item">
-										<a href="#" class="edditRight__link">Изменить</a>	
+										<a href="#" class="edditRight__link">Изменить</a>
 									</li>
 									<li class="edditRight__item">
 										<a href="#" class="edditRight__link">Копировать</a>
@@ -393,16 +423,17 @@
 									<li class="edditRight__item">
 										<a href="#" class="edditRight__link">Переслать</a>
 									</li>
-									<li class="edditRight__item"> 
+									<li class="edditRight__item">
 										<a href="#" class="edditRight__link">Удалить</a>
 									</li>
 								</ul>
-							</nav>	
+							</nav>
 						</div>
 						<div class="boxRight__thumb">
-							<img src="pictures/Rectangle-2.103.png" alt="boy" class="boxRight__img" width="70" height="66">
+							<img src="pictures/desktop/Rectangle-2.103.png" alt="boy" class="boxRight__img"
+							width="70" height="66">
 						</div>
-					</div>		
+					</div>
 				</section>
 				<section class="chat__footer">
 					<div class="plus-btn">
@@ -410,43 +441,48 @@
 							<ul class="plus-btn__list">
 								<li class="plus-btn_item">
 									<a href="#" class="plus-btn__link">
-										<img src="pictures/audio.png" alt="audio" class="plus-btn__audio">	
+										<img src="pictures/desktop/audio.png" alt="audio" class="plus-btn__audio">
 									</a>
 								</li>
 								<li class="add__item">
 									<a href="#" class="add__link">
-										<img src="pictures/photo.png" alt="photo" class="add__photo">	
+										<img src="pictures/desktop/photo.png" alt="photo" class="add__photo">
 									</a>
 								</li>
 								<li class="add__item">
 									<a href="#" class="add__link">
-										<img src="pictures/video.png" alt="video" class="add__video">	
+										<img src="pictures/desktop/video.png" alt="video" class="add__video">
 									</a>
 								</li>
 								<li class="add__item">
 									<a href="#" class="add__link">
-										<img src="pictures/music.png" alt="music" class="add__music">	
+										<img src="pictures/desktop/music.png" alt="music" class="add__music">
 									</a>
-								</li>								
-							</ul>								
-						</nav>					
-						<div class="plus-btn__bg">		
-						</div>	
+								</li>
+							</ul>
+						</nav>
+						<div class="plus-btn__bg">
+						</div>
 					</div>
 					<form class="formChat">
 						<div class="formChat__wrap">
 							<input type="text" class="formChat__area" placeholder="Сообщение...">
 							<a href="#">
-								<svg width="34" height="34" viewBox="0 0 34 34" fill="none" class="formChat__area--smille">
-									<path d="M15.6673 28.8244C15.4936 27.9715 15.3988 27.0871 15.4304 26.171C15.5883 20.4062 20.4055 15.5891 26.1703 15.4311C28.2235 15.368 30.1504 15.8734 31.8087 16.7894C31.8087 16.7894 32.1088 16.8842 31.5244 17.5002L17.4994 31.5252C17.1835 31.8411 16.7571 32.0148 16.3149 31.999C8.21256 31.6357 1.78442 24.8286 2.00554 16.5841C2.22665 8.7503 8.74956 2.2274 16.5834 2.00628C23.7538 1.80096 29.8345 6.64971 31.5402 13.2516" stroke="#506B76" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/>
-								</svg>		
-							</a>										
-						</div>
-						<input type="submit" class="formChat__btn" value="send">
-					</form>	
-				</section>	
+								<svg width="34" height="34" viewBox="0 0 34 34" fill="none"
+								class="formChat__area--smille">
+								<path
+								d="M15.6673 28.8244C15.4936 27.9715 15.3988 27.0871 15.4304 26.171C15.5883 20.4062 20.4055 15.5891 26.1703 15.4311C28.2235 15.368 30.1504 15.8734 31.8087 16.7894C31.8087 16.7894 32.1088 16.8842 31.5244 17.5002L17.4994 31.5252C17.1835 31.8411 16.7571 32.0148 16.3149 31.999C8.21256 31.6357 1.78442 24.8286 2.00554 16.5841C2.22665 8.7503 8.74956 2.2274 16.5834 2.00628C23.7538 1.80096 29.8345 6.64971 31.5402 13.2516"
+								stroke="#506B76" stroke-width="3" stroke-miterlimit="10"
+								stroke-linecap="round" />
+							</svg>
+						</a>
+					</div>
+					<input type="submit" class="formChat__btn" value="send">
+				</form>
 			</section>
-		</div>	
-	</main>
+		</section>
+	</div>
+</main>
 </body>
+
 </html>
