@@ -24,7 +24,6 @@
 
 					@media screen and(max-width: 600px) {
 						width: 100%;
-						// display: none;
 					}
 				}
 			}
@@ -71,7 +70,7 @@
 		display: block;
 		@extend %m-title;
 		width: 100%;
-		background-color: #b1c1cf;
+		background-color: $title-col;
 		padding: 26px 20px 20px 69px;
 		letter-spacing: 1.1px;
 		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -120,7 +119,7 @@
 			text-decoration: none;
 			font-family: $main-sans-family;
 			font-size: 21px;
-			color: #3C5A76;
+			color: $link-color;
 		}
 	}
 
@@ -235,38 +234,7 @@
 			background-color: $sidebar-visited;
 		}
 
-		&--active {
-			background-color: $sidebar-active;
-
-			@media screen and (max-width: 1195px) {
-				padding-top: 3.5%;
-				padding-bottom: 4%;
-
-				@media screen and(max-width: 1105px) {
-					padding-top: 2.5%;
-					padding-bottom: 3%;
-					padding-left: 3.5%;
-
-					@media screen and (max-width: 835px){
-						padding-left: 3%;
-
-						@media screen and(max-width: 600px) {
-							background-color: $sidebar-box-bg;
-							padding: 4.4% 24% 2% 3%;
-
-							@media screen and(max-width: 395px) {
-								padding-left: 3%;
-							}
-						}
-					}
-				}
-			}
-		}
-
-		&--visited {
-			background-color: $sidebar-visited;
-		}
-
+		
 		&__ava {
 			display: block;
 			width: 46px;
@@ -481,7 +449,7 @@
 		font-size: 18px;
 		padding: 1px 0 0 6.5px;
 		line-height: 21px;
-		color: #FFFFFF;
+		color: $font-color;
 		background: linear-gradient(207.6deg, #F5B970 0%, #CD7000 82.33%);
 		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 		border-radius: 50%;
@@ -657,7 +625,7 @@
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	color: #000000;
+	color: $main-font-color;
 	font-family: $main-font-family;
 	font-size: 26px;
 	line-height: 17px;
@@ -841,7 +809,7 @@
 
 	&__title {
 		font-family: $title-family;
-		color: #3c5a76; 
+		color: $link-color; 
 		font-size: 25px;
 		font-weight: 300;
 		line-height: 24px;
@@ -934,7 +902,7 @@
 				font-weight: normal;
 				font-size: 26px;
 				line-height: 28px;
-				color: #3C5A76;
+				color: $link-color;
 				width: 40.7%;
 				margin-left: auto; 
 
@@ -956,7 +924,7 @@
 				font-size: 18px;
 				line-height: 20px;
 				letter-spacing: 0.018em;
-				color: #3C5A76;
+				color: $link-color;
 				margin-left: auto;
 				margin-top: 4px;
 				width: 43.8%;
@@ -996,7 +964,7 @@
 		#avatar {
 			width: 55px;
 			height: 55px;
-			background: url(.jpg), #E6EEF0;
+			background-color: $plus-color;
 			box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 			border-radius: 15px;
 
@@ -1610,7 +1578,6 @@
 }
 
 .edditRight {
-	// display: none;
 	position: absolute;
 	top: 70px;
 	right: 0;
@@ -1933,9 +1900,9 @@
 
 					@media screen and  (max-width: 600px) {
 						padding: 0;
-						color: #fff;
+						color: $font-color;
 						background-color: transparent;
-						border: 3px solid #E5E5E5;
+						border: 3px solid $main-color;
 						border-radius: 23px;
 						width: 90%;
 						height: 43px;
